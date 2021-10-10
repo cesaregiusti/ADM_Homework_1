@@ -621,8 +621,11 @@ def fibonacci(n):
 if __name__ == '__main__':
     n = int(input())
     print(list(map(cube, fibonacci(n))))
-    
+
 # Re.split()
+# Re was an unknown package to me, so I actually used the 'Discussions' tab on more complicated exercises
+# to get hints on how to write the regular expressions and actually familiarize a little bit with the syntax.
+
 regex_pattern = r"[,.]"	# Do not delete 'r'.
 import re
 print("\n".join(re.split(regex_pattern, input())))
